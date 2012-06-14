@@ -1,15 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic&subset=latin);
 
 html, body {
-	padding: 0; margin:20px;
+        padding:1em;
+        margin:auto;
+        max-width:42em;
+        background:#fefefe;
 	}
 body {
 	font: 1.3em "Vollkorn", Palatino, Times;
 	color: #333;
 	line-height: 1.4;
 	text-align: justify;
-	background-image: url(/texture.png);
-	background-repeat: repeat;
 	}
 header, nav, article, footer {
 	width: 700px;
