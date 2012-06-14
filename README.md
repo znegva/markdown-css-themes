@@ -1,5 +1,12 @@
 # Markdown css theme collection
 
-Originally forked from @clownfart, and I'm adding any nice markdown css stylesheets I find.
+* [Light](http://jasonm23.github.com/markdown-css-themes/index.html)
+* [Dark](http://jasonm23.github.com/markdown-css-themes/dark.html)
+* [Alt](http://jasonm23.github.com/markdown-css-themes/alt.html)
+* [Foghorn](http://jasonm23.github.com/markdown-css-themes/foghorn.html)
+* [Swiss](http://jasonm23.github.com/markdown-css-themes/swiss.html)
 
-http://jasonm23.github.com/markdown-css-themes/
+
+
+
+
