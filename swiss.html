@@ -1,6 +1,26 @@
-<link href="swiss.css" rel="stylesheet"></link>
+<link rel='stylesheet' href='swiss.css'/>
+<ul>
+<li><a href="avenir-white.html">avenir-white.css</a></li>
+<li><a href="foghorn.html">foghorn.css</a></li>
+<li><a href="markdark.html">markdark.css</a></li>
+<li><a href="markdown-alt.html">markdown-alt.css</a></li>
+<li><a href="markdown.html">markdown.css</a></li>
+<li><a href="markdown1.html">markdown1.css</a></li>
+<li><a href="markdown10.html">markdown10.css</a></li>
+<li><a href="markdown2.html">markdown2.css</a></li>
+<li><a href="markdown3.html">markdown3.css</a></li>
+<li><a href="markdown4.html">markdown4.css</a></li>
+<li><a href="markdown5.html">markdown5.css</a></li>
+<li><a href="markdown6.html">markdown6.css</a></li>
+<li><a href="markdown7.html">markdown7.css</a></li>
+<li><a href="markdown8.html">markdown8.css</a></li>
+<li><a href="markdown9.html">markdown9.css</a></li>
+<li><a href="screen.html">screen.css</a></li>
+<li><a href="swiss.html">swiss.css</a></li>
+</ul>
 
-<p><a href="index.html">lighter?</a> - <a href="alt.html">alt</a> - <a href="dark.html">dark</a>  - <a href="foghorn.html">foghorn</a> - <a href="swiss.html">swiss</a></p>
+
+<hr />
 
 <h1>A First Level Header</h1>
 
@@ -19,14 +39,13 @@ the aid of their country. This is just a
 regular paragraph.</p>
 
 <p>The quick brown fox jumped over the lazy
-dog's back.</p>
+dog&rsquo;s back.</p>
 
 <hr />
 
 <h3>Header 3</h3>
 
-<blockquote>
-  <p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+<blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
 
@@ -37,12 +56,9 @@ id sem consectetuer libero luctus adipiscing.</p>
 
 <p>This is the first level of quoting.</p>
 
-<blockquote>
-  <p>This is nested blockquote.</p>
-</blockquote>
+<blockquote><p>This is nested blockquote.</p></blockquote>
 
-<p>Back to the first level.</p>
-</blockquote>
+<p>Back to the first level.</p></blockquote>
 
 <p>Some of these words <em>are emphasized</em>.
 Some of these words <em>are emphasized also</em>.</p>
@@ -56,72 +72,78 @@ Or, if you prefer, <strong>use two underscores instead</strong>.</p>
 <li>Booze.</li>
 <li>Red</li>
 <li>Green</li>
-<li>Blue</li>
-<ul>
-<li><p>A list item.</p>
+<li><p>Blue</p></li>
+<li><p>A list item.</p></li>
+</ul>
 
-<p>With multiple paragraphs.</p></li>
+
+<p>With multiple paragraphs.</p>
+
+<ul>
 <li><p>Another item in the list.</p></li>
 <li><p>This is a list item with two paragraphs. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-mi posuere lectus.</p>
+mi posuere lectus.</p></li>
+</ul>
+
 
 <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
 vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-sit amet velit.</p></li>
-</ul>
-<li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-<li><p>This is a list item with two paragraphs.</p>
+sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.</p>
 
-<p>This is the second paragraph in the list item. You're
+<ul>
+<li>This is a list item with two paragraphs.</li>
+</ul>
+
+
+<p>This is the second paragraph in the list item. You&rsquo;re
 only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.</p></li>
+sit amet, consectetuer adipiscing elit.</p>
+
+<ul>
 <li><p>Another item in the same list.</p></li>
-<li><p>A list item with a blockquote:</p>
-
-<blockquote>
-  <p>This is a blockquote
-inside a list item.</p>
-</blockquote></li>
-<li><p>A list item with a code block:</p>
-
-<pre><code>&lt;code goes here&gt;
-</code></pre></li>
+<li><p>A list item with a blockquote:</p></li>
 </ul>
 
-<p>Here is an example of AppleScript:</p>
 
-<pre><code>tell application "Foo"
+<blockquote><p>This is a blockquote
+inside a list item.
+*   A list item with a code block:</p></blockquote>
+
+<pre><code>&amp;lt;code goes here&amp;gt;
+`&lt;/pre&gt;
+
+Here is an example of AppleScript:
+
+&lt;pre&gt;`tell application "Foo"
     beep
 end tell
+`&lt;/pre&gt;
+
+This is an [example link](http://example.com/).
+
+I get 10 times more traffic from [Google](http://google.com/ "Google") than from
+[Yahoo](http://search.yahoo.com/ "Yahoo Search") or [MSN](http://search.msn.com/ "MSN Search").
+
+I start my morning with a cup of coffee and
+[The New York Times](http://www.nytimes.com/).
+
+![alt text](image.jpg "Title")
+
+![alt text](image2.jpg "Title")
+
+I strongly recommend against using any `&amp;lt;blink&amp;gt;` tags.
+
+I wish SmartyPants used named entities like `&amp;amp;mdash;`
+instead of decimal-encoded entites like `&amp;amp;#8212;`.
+
+If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
+
+&lt;pre&gt;`&amp;lt;blockquote&amp;gt;
+    &amp;lt;p&amp;gt;For example.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
 </code></pre>
-
-<p>This is an <a href="http://example.com/">example link</a>.</p>
-
-<p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from
-<a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-
-<p>I start my morning with a cup of coffee and
-<a href="http://www.nytimes.com/">The New York Times</a>.</p>
-
-<p><img src="image.jpg" alt="alt text" title="Title" /></p>
-
-<p><img src="image2.jpg" alt="alt text" title="Title" /></p>
-
-<p>I strongly recommend against using any <code>&lt;blink&gt;</code> tags.</p>
-
-<p>I wish SmartyPants used named entities like <code>&amp;mdash;</code>
-instead of decimal-encoded entites like <code>&amp;#8212;</code>.</p>
-
-<p>If you want your page to validate under XHTML 1.0 Strict,
-you've got to put paragraph tags in your blockquotes:</p>
-
-<pre><code>&lt;blockquote&gt;
-    &lt;p&gt;For example.&lt;/p&gt;
-&lt;/blockquote&gt;
-</code></pre>
-
-
 
 <h1>August 31, 2011</h1>
 
@@ -139,24 +161,27 @@ you've got to put paragraph tags in your blockquotes:</p>
 <li>Implementation</li>
 </ol>
 
+
 <h4>Analysis phase</h4>
 
-<p><em>Requirements</em> -- what the customer wants or needs.  Understanding on needs expressed by:</p>
+<p><em>Requirements</em> &ndash; what the customer wants or needs.  Understanding on needs expressed by:</p>
 
 <ul>
 <li>Use cases can (can use UML)</li>
 <li>User manual style of analysis document</li>
 </ul>
 
+
 <h4>Design phase</h4>
 
 <p>Goals of OO design:</p>
 
 <ol>
-<li>Identify classes -- things in the system</li>
+<li>Identify classes &ndash; things in the system</li>
 <li>Identify responsibilities of the classes</li>
 <li>Identify relationships between classes</li>
 </ol>
+
 
 <p>Classes consist of:</p>
 
@@ -166,6 +191,7 @@ you've got to put paragraph tags in your blockquotes:</p>
 <li>Identity:  each unique object should have its own address in memory
 which contains its state</li>
 </ol>
+
 
 <p>Types of classes that are common:</p>
 
@@ -179,17 +205,22 @@ which contains its state</li>
 <li>Foundational classes</li>
 </ol>
 
+
 <p>Types of class relationships:</p>
 
 <ol>
 <li>Dependency (<em>uses a</em>)</li>
-<li>Aggregation (<em>has a</em>)
-<ul><li>Aggregation -- 1:many</li>
-<li>Association -- 1:1</li>
-<li>Composition -- "<em>if I'm composed of other things, then I am considered
-responsible for the lifetime for those things</em>"</li></ul></li>
+<li><p>Aggregation (<em>has a</em>)</p>
+
+<ul>
+<li>Aggregation &ndash; 1:many</li>
+<li>Association &ndash; 1:1</li>
+<li>Composition &ndash; &ldquo;<em>if I&rsquo;m composed of other things, then I am considered
+responsible for the lifetime for those things</em>&rdquo;</li>
+</ul>
+</li>
 <li>Inheritance (<em>is a</em>)</li>
 </ol>
 
-<p>Classes and relationships are the basis for a UML class diagram.</p>
 
+<p>Classes and relationships are the basis for a UML class diagram.</p>
