@@ -1,6 +1,5 @@
 [avenir-white.css](avenir-white.html) | 
 [foghorn.css](foghorn.html) | 
-[markdark.css](markdark.html) | 
 [markdown-alt.css](markdown-alt.html) | 
 [markdown.css](markdown.html) | 
 [markdown1.css](markdown1.html) | 
