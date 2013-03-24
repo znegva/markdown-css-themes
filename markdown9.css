@@ -3,11 +3,11 @@ h1, h2, h3, h4, h5, h6, p, blockquote {
     padding: 0;
 }
 body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
     line-height: 18px;
     color: #fff;
-    background-color: #282a36;
+    background-color: #110F14;
     margin: 10px 13px 10px 13px;
 }
 table {

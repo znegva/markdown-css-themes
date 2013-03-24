@@ -99,18 +99,17 @@ I start my morning with a cup of coffee and
 
 ![alt text](image2.jpg "Title")
 
-I strongly recommend against using any `&lt;blink&gt;` tags.
-
-I wish SmartyPants used named entities like `&amp;mdash;`
-instead of decimal-encoded entites like `&amp;#8212;`.
+I wish SmartyPants used named entities like `&mdash;`
+instead of decimal-encoded entites like `&#8212;`.
 
 If you want your page to validate under XHTML 1.0 Strict,
 you've got to put paragraph tags in your blockquotes:
 
-    &lt;blockquote&gt;
-      &lt;p&gt;For example.&lt;/p&gt;
-    &lt;/blockquote&gt;
-
+```
+<blockquote>
+  <p>For example.</p>
+</blockquote>
+```
 # August 31, 2011
 
 Homework: Problems 2.10-2.19; complete registration system
