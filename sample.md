@@ -1,6 +1,5 @@
 
 * * *
-
 # A First Level Header
 
 ## A Second Level Header
@@ -80,38 +79,36 @@ sit amet, consectetuer adipiscing elit.
 > inside a list item.
 *   A list item with a code block:
 
-    &lt;code goes here&gt;
-    `</pre>
+    code goes here
 
-    Here is an example of AppleScript:
+Here is an example of 
 
-    <pre>`tell application "Foo"
+    tell application "Foo"
         beep
     end tell
-    `</pre>
 
-    This is an [example link](http://example.com/).
+This is an [example link](http://example.com/).
 
-    I get 10 times more traffic from [Google](http://google.com/ "Google") than from
-    [Yahoo](http://search.yahoo.com/ "Yahoo Search") or [MSN](http://search.msn.com/ "MSN Search").
+I get 10 times more traffic from [Google](http://google.com/ "Google") than from
+[Yahoo](http://search.yahoo.com/ "Yahoo Search") or [MSN](http://search.msn.com/ "MSN Search").
 
-    I start my morning with a cup of coffee and
-    [The New York Times](http://www.nytimes.com/).
+I start my morning with a cup of coffee and
+[The New York Times](http://www.nytimes.com/).
 
-    ![alt text](image.jpg "Title")
+![alt text](image.jpg "Title")
 
-    ![alt text](image2.jpg "Title")
+![alt text](image2.jpg "Title")
 
-    I strongly recommend against using any `&lt;blink&gt;` tags.
+I strongly recommend against using any `&lt;blink&gt;` tags.
 
-    I wish SmartyPants used named entities like `&amp;mdash;`
-    instead of decimal-encoded entites like `&amp;#8212;`.
+I wish SmartyPants used named entities like `&amp;mdash;`
+instead of decimal-encoded entites like `&amp;#8212;`.
 
-    If you want your page to validate under XHTML 1.0 Strict,
-    you've got to put paragraph tags in your blockquotes:
+If you want your page to validate under XHTML 1.0 Strict,
+you've got to put paragraph tags in your blockquotes:
 
-    <pre>`&lt;blockquote&gt;
-        &lt;p&gt;For example.&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;For example.&lt;/p&gt;
     &lt;/blockquote&gt;
 
 # August 31, 2011
