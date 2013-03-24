@@ -44,20 +44,20 @@ Some of these words _are emphasized also_.
 Use two asterisks for **strong emphasis**.
 Or, if you prefer, **use two underscores instead**.
 
-*   Candy.
-*   Gum.
-*   Booze.
-*   Red
-*   Green
-*   Blue
+* Candy.
+* Gum.
+* Booze.
+* Red
+* Green
+* Blue
 
-*   A list item.
+* A list item.
 
 With multiple paragraphs.
 
-*   Another item in the list.
+* Another item in the list.
 
-*   This is a list item with two paragraphs. Lorem ipsum dolor
+* This is a list item with two paragraphs. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit. Aliquam hendrerit
 mi posuere lectus.
 
@@ -65,23 +65,22 @@ Vestibulum enim wisi, viverra nec, fringilla in, laoreet
 vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
 sit amet velit.*   Suspendisse id sem consectetuer libero luctus adipiscing.
 
-*   This is a list item with two paragraphs.
+* This is a list item with two paragraphs.
 
 This is the second paragraph in the list item. You're
 only required to indent the first line. Lorem ipsum dolor
 sit amet, consectetuer adipiscing elit.
 
-*   Another item in the same list.
+* Another item in the same list.
 
-*   A list item with a blockquote:
+* A list item with a blockquote:
 
 > This is a blockquote
 > inside a list item.
-*   A list item with a code block:
 
-    code goes here
+* A list item with a bit of `code` inline.
 
-Here is an example of 
+Here is an example of a pre code block
 
     tell application "Foo"
         beep
