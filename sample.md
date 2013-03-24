@@ -73,12 +73,12 @@ sit amet, consectetuer adipiscing elit.
 
 * Another item in the same list.
 
+* A list item with a bit of `code` inline.
+
 * A list item with a blockquote:
 
-> This is a blockquote
-> inside a list item.
-
-* A list item with a bit of `code` inline.
+  > This is a blockquote
+  > inside a list item.
 
 Here is an example of a pre code block
 
