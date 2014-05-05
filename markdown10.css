@@ -2,13 +2,13 @@
 body {
 	 font:13.34px helvetica,arial,freesans,clean,sans-serif;
 	 color:black;
-	 line-height:1.4em;
+	 line-height:1.4;
 	 background-color: #F8F8F8;
 	 padding: 0.7em;
 }
 p {
 	 margin:1em 0;
-	 line-height:1.5em;
+	 line-height:1.5;
 }
 table {
 	 font-size:inherit;
@@ -27,7 +27,7 @@ pre {
 	 background-color:#eee;
 	 border:1px solid #ddd;
 	 padding:5px;
-	 line-height:1.5em;
+	 line-height:1.5;
 	 color:#444;
 	 overflow:auto;
 	 -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;

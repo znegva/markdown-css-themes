@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote {
 body {
    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 13px;
-   line-height: 18px;
+   line-height: 1.385;
    color: #fff;
    background-color: #110F14;
    margin: 10px 13px 10px 13px;
@@ -78,7 +78,7 @@ blockquote:before {
 blockquote p {
    font-size: 14px;
    font-weight: 300;
-   line-height: 18px;
+   line-height: 1.285;
    margin-bottom: 0;
    font-style: italic;
 }
